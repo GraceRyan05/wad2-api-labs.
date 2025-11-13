@@ -1,4 +1,14 @@
 {
+  "name": "tasky-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec npm start"
+  },
+  "author": "graceryan05",
+  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.28.5",
     "@babel/eslint-parser": "^7.28.5",
